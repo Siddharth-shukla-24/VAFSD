@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="style.css"/> -->
+</head>
+<body>
+    <style>
+        h1{
+            background-color:rgb(224, 196, 255);
+
+        }
+    </style>
+    <table  border="2" height="80%" width="40%">
+      <div id="f">
+        <tr>
+            <th>
+            <img src="abes.jpeg" height="40px" width="40px" alt="abes"/>  
+            </th>
+            <th> ABES ENGINEERING COLLEGE
+            </th>
+        </tr>
+         <tr>
+      </div>
+        <div>
+            <td><h1 style="size: 10px;">Branch</h1><br>
+                <ul>
+                    <li>CSE</li>
+                    <li>ECE</li>
+                    <li>MECH</li>
+                    <li>AIML</li>
+                    <li>CE</li>
+                    
+                </ul>
+             </td>
+        </div>
+         <td style="text-align:center">
+            <h1>REGISTRATON FORM PAGE</h1>
+            <form action="/submit_form" method="post" style="background-color:rgb(43, 171, 226)">
+                <label for="name">name:</label>
+                <input type="text" id="uname" name="uname"><br><br>
+                <label for="psw">Password:</label>
+                <input type="password" id="psw" name="psw"><br><br>
+                Email:<input type="email"><br><br>
+                Phone NO:<input type="number"><br><br>
+               <label for="gender">Gender:</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br><br>
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob"><br><br>
+                <label for="Address">Adress</label>
+                <textarea id="Address" name="Address"></textarea><br>
+                <label for="Language Known">Language:</label>
+                <select id="language" name="language">
+                <option value="English">English</option>
+                <option value="Hindi">Hindi</option>
+                <option value="Tamil">Tamil</option>
+                <option value="Telugu">Telugu</option>
+                </select><br><br>
+               <input type="submit" value="Submit">
+                <input type="reset" value="Reset"></form>
+         </td>   
+        </tr> 
+
+       
+    
+</body>
+</html>
